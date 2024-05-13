@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- META TAGS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      #name="description"
+      content="Página portifólio Fabiano Cardoso"
+    />
+    <meta
+      name="keywords"
+      content="fabiano, site portifólio, programador, html, css, javascript, java, react-native"
+    />
+    <meta name="autor" content="Fabiano Cardoso" />
+    <!-- FIM META TAGS -->
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- FIM GOOGLE FONTES -->
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- FIM BOOTSTRAP ICONS -->
+    <!-- IMPORT STYLE AND JS -->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="menu.js" defer></script>
+    <!-- IMPORT STYLE AND JS -->
+    <title>Portifólio FC</title>
+</head>
+<body>
+    
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="Logo FC" width="75px">
+                </a>
+            </div><!--logo-->
+
+            <nav class="menudesktop">
+                <ul>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#portifolio">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btncontato">
+                <a href="#formulario">
+                    <button>Contato</button>
+                </a>
+            </div><!--btncontato-->
+
+            <div class="btnabrirmenu" id="btnmenu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menumobile" id="menumobile">
+                <div class="btnfechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#especialidades">Especialidades</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#portifolio">Projetos</a></li>
+                        <li><a href="#formulario">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </div><!--menumobile-->
+            <div class="overlaymenu" id="overlaymenu"></div>
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <section class="topodosite">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txttoposite">
+                        <h1>DA IMAGINAÇÃO À REALIZAÇÃO<span>:</span><br> MOLDAMOS O FUTURO DIGITAL<span>.</span></h1>
+                        <p>Explore um universo de possibilidades onde a imaginação se torna realidade. 
+                            Com uma paixão pela inovação, estou aqui para transformar suas ideias nas melhores experiências digitais. 
+                            Deixe-me guiá-lo(a) nessa jornada, onde cada bit conta uma história de sucesso.</p>
+
+                        <div class="btncontato">
+                            <a href="#formulario">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div><!--txttoposite-->
+
+                    <div class="imgtoposite">
+                        <img src="images/pessoa.png" alt="" width="500px">
+                    </div><!--imgtoposite-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topodosite-->
+
+        <section class="especiliadades" id="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+                <div class="flex">
+                    <div class="especialidadesbox">
+                        <i class="bi bi-filetype-java"></i>
+                        <h3>Java</h3>
+                        <p>Desbloqueie o potencial da sua aplicação com uma API REST robusta e flexível, escale e adapte-se. Transforme desafios em soluções.</p>
+                    </div><!--especialidadesbox-->
+
+                    <div class="especialidadesbox">
+                        <i class="bi bi-code-square"></i>
+                        <h3>Java Script</h3>
+                        <p>Para criar aplicações web inovadoras e reativas que elevam a experiência do usuário a novos patamares. Potencialize com os frameworks mais modernos.</p>
+                    </div><!--especialidadesbox-->
+
+                    <div class="especialidadesbox">
+                        <i class="bi bi-database-add"></i>
+                        <h3>Database</h3>
+                        <p>Construir bases sólidas para suas aplicações com soluções de banco de dados SQL e NoSQL. Tenha consistência e confiabilidade.</p>
+                    </div><!--especialidadesbox-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--especiliadades-->
+
+        <section class="sobre" id="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="imgsobre">
+                        <img src="images/foto.png" alt="" width="350px">
+                    </div><!--imgsobre-->
+
+                    <div class="txtsobre">
+                        <h2>MUITO PRAZER, <span>SOU FABIANO CARDOSO.</span></h2>
+                        <p>🔭 Atualmente estou trabalhando como desenvolvedor e suporte à sustentação de sistemas Java e JavaScript.<br>
+                            👯 Sou um profissional de tecnologia experiente com mais de 10 anos de trabalho para diferentes tipos de empresas e setores.<br>
+                            Minhas experiências começaram inicialmente em hardware.
+                            Em servidores (Windows e Linux).
+                            Redes, firewalls e Virtualização em VMware.
+                            Backup de servidores (Windows, Linux).
+                            Atuei em elevação de infraestrutura para AWS.
+                            Quando iniciei no mundo da técnologia o primeiro contato com software foi com Delphi, PHP e SQL.
+                            </p>
+                        <p>🤝 Ajudar e ser ajudado, sempre é bem-vindo.
+                            
+                            🌱 Procuro estar em constante evolução!
+                            
+                            ⚡ Sou um profissional apaixonado por tecnologia, me interesso por mídias sociais, series e esportes.</p>
+                        <div class="btnsocial">
+                            <a href="https://www.instagram.com/_cardoso.fabiano/"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://github.com/fabianocar"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.linkedin.com/in/fabiano-card/"><button><i class="bi bi-linkedin"></i></button></a>
+                        </div><!--btnsocial-->
+                    </div><!--txtsobre-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--sobre-->
+
+        <section class="portifolio" id="portifolio">
+            <div class="interface">
+                <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
+                <div class="flex">
+                    <div class="imgport" style="background-image: url(images/imagem.jpg);">
+                        <div class="overlay">Java and React</div>
+                    </div>
+                    <div class="imgport" style="background-image: url(images/imagem.jpg);">
+                        <div class="overlay">JavaScript and Reac-Native</div>
+                    </div>
+                    <div class="imgport" style="background-image: url(images/imagem.jpg);">
+                        <div class="overlay">Node</div>
+                    </div>
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--portfolio-->
+
+        <section class="formulario" id="formulario">
+            <div class="interface">
+                <h2 class="titulo">ME <span>CONTATE.</span></h2>
+
+                <form
+                    action="https://formspree.io/f/xpzvnrqw"
+                    method="POST"
+                >
+                    <input type="text" name="name" id="name" placeholder="Nome:" required>
+                    <input type="text" name="email" id="email" placeholder="E-mail:" required>
+                    <input type="text" name="phone" id="phone" placeholder="Celular:">
+                    <textarea name="message" id="message" placeholder="Escreva sua mensagem..." required></textarea>
+                    <div class="btnenviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+            </div><!--interface-->
+        </section><!--formulario-->
+
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="linefooter">
+                <div class="flex">
+                    <div class="logofooter">
+                        <img src="images/logo.png" alt="Logotipo FC" width="75px">
+                    </div><!--logofooter-->
+                    <div class="btnsocial">
+                        <a href="https://www.instagram.com/_cardoso.fabiano/"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://github.com/fabianocar"><button><i class="bi bi-github"></i></button></a>
+                        <a href="https://www.linkedin.com/in/fabiano-card/"><button><i class="bi bi-linkedin"></i></button></a>
+                    </div><!--btnsocial-->
+                </div>
+            </div><!--linefooter-->
+
+            <div class="linefooter borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:sl.biano28@gmail.com">contato@fabiano.com.br</a></p>
+            </div><!--linefooter-->
+        </div><!--interface-->
+    </footer>
+
+</body>
+</html>
